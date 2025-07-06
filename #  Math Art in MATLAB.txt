@@ -1,0 +1,41 @@
+#  Math Art in MATLAB
+
+This project explores the beauty of mathematics through creative plotting using parametric equations in MATLAB. It combines geometry, trigonometry, and visual design to generate artistic patterns.
+
+##  Overview
+
+The script `math_art_plots.m` produces four mathematical art plots arranged in a 2×2 grid:
+
+| Plot Title       | Description |
+|------------------|-------------|
+| **Lissajous Curve** | A figure generated from sine waves with different frequencies and phase shifts |
+| **Rose Curve**      | A classic polar equation converted to Cartesian form to create petal-like shapes |
+| **Spirograph**      | A looping, circular pattern similar to those made with spirograph toys |
+| **Galaxy Spiral**   | A mathematical spiral with a black background and colored styling to resemble a galaxy |
+
+## How It Works
+
+Each plot is generated using `subplot` and parametric equations. The plots demonstrate:
+
+- Use of trigonometric functions (`sin`, `cos`)
+- Polar-to-Cartesian conversion
+- Styling with `LineWidth`, `Color`, and custom backgrounds
+- Use of `axis equal` and `grid on` for clarity
+
+The Galaxy Spiral subplot uses a black background and white text for a space-like aesthetic.
+
+## Files
+
+| File Name            | Description |
+|----------------------|-------------|
+| `math_art_plots.m`   | MATLAB script to generate the full figure |
+| `math_art.png`       | Saved figure image for preview or use in documentation |
+| `README.md`          | This file |
+
+## Skills Demonstrated
+
+- MATLAB plotting (`plot`, `subplot`, `grid`, `axis`)
+- Creative use of parametric and polar equations
+- Data visualization and aesthetic design
+- GitHub-ready documentation and organization
+
